@@ -1,0 +1,34 @@
+table {
+  width:100%;
+  /*width:180px;*/
+}
+tr {
+  text-align:center;
+  /*text-align:left;*/
+}
+th {
+  /*border-color:green;
+  border: solid black 1px;*/
+}
+td {
+  /*border-color:green;
+  border: solid black 1px;*/
+}
+#lock {
+  width:70px;
+  padding-top:15px;
+}
+#code {
+  width:100%;
+  padding-top:15px;
+}
+hr {
+  /*border: solid black 0.6px;*/
+}
+li{
+  /*border: solid black 0.6px;*/
+  height:35px;
+}
+#key {
+  width:100%;
+}

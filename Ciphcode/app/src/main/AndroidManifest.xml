@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="pro.gr.ams.ciphcode">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@raw/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AtbashActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReverseCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UltimoCifradoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TextmateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MorseCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HitmanCipherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DrenzenCipherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BinaryCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HexadecimalCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClockCipherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CrossCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EmoticodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DotDotCodesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KennyCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TapCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BaconCipherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DNACipherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PhoneCipherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KennyCipherABCActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QwertyCipherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CaesarCipherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AceCipherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AlphanumericActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BracketsCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CompoundCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomophonicCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LeetspeakCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MVCipherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PentominoCodesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InfoActivity"
+            android:theme="@style/Info" />
+        <activity
+            android:name=".PermulationCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".TomTomCodesActivity" />
+        <activity
+            android:name=".QRCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PolybiusSquareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DecimalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="portrait"
+            tools:replace="screenOrientation" />
+        <activity
+            android:name=".OctalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LatinCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PigpenActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".RegistrationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Reg"></activity>
+    </application>
+
+</manifest>
